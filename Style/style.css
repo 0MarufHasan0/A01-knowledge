@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* common style */
+
+.interfont-open-sans{
+   font-family: "Inter", sans-serif;
+   font-optical-sizing: auto;
+}
+.btn{
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 12.5px 16px;
+    cursor: pointer;
+}
+/* Main Style */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 16px 120px 16px 120px;
+}
+.ul-help{
+
+    display: flex;
+    align-items: center;
+    gap:20px;
+    font-size: 16px;
+    font-weight: 600 ;
+    cursor: pointer;
+}
+
+.banner{
+    background-image: url("/assets/hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 674px;
+    
+   
+
+}
+
+ .banner-contain{
+    text-align: center;
+   
+}
+
+.banner-contain h1{
+    font-size: 72px;
+    font-weight: 700px ;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+
+}
+
+.banner-contain .h1-color{
+    color: #469165;
+}
+.banner-contain p{
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 32px;
+    margin-bottom: 32px;
+   
+}
