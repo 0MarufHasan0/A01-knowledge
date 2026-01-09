@@ -31,6 +31,7 @@
 }
 
 .heading-section{
+    color: #001931;
    font-size: 48px;
    font-weight:bold ;
    margin-bottom:16px ;
@@ -163,4 +164,46 @@ nav{
     color: #627382 ;
      line-height: 20px;
 }
+
+/* Banner-2 Style */
+.banner-2{
+    max-width: 1360px;
+    height: 600px;
+    margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-2 .contain{
+    margin-right: 200px;
+}
+ .banner-2 .knowledge-p img{
+    border: 5px;
+    margin-left: 150px;
+    width: 500px;
+ }
+
+.banner-2 h3{
+    color: #469165;
+    font-size: 16px;
+    list-style: 20px;
+}
+
+.item{
+    margin-top: 20px;
+    color: #001931;
+    line-height: 30px;
+}
+
+/* .contain .item img{
+    padding-top: 40px;
+} */
+
+/* Banner-2 section End */
+
+/* Banner-3 Section Start */
+
+
+
+   
    
