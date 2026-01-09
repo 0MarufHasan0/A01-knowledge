@@ -29,7 +29,20 @@
     padding: 12px 16.5px;
     cursor: pointer;
 }
-/* Main Style */
+
+.heading-section{
+   font-size: 48px;
+   font-weight:bold ;
+   margin-bottom:16px ;
+}
+
+.heading-p{
+    font-size: 16px;
+    color: #627382;
+}
+/* Main Style Start */
+
+/* Nav bar style */
 
 nav{
     display: flex;
@@ -47,7 +60,9 @@ nav{
     font-weight: 600 ;
     cursor: pointer;
 }
+/* Nav bar style end */
 
+/* Banner style start  */
 .banner{
     background-image: url("../assets/hero-bg.png");
     background-size: cover;
@@ -92,3 +107,60 @@ nav{
     padding: 8px 12px;
     cursor: pointer;
 }
+/* Banner Style End */
+/* card Style Start */
+.card{
+    margin:33px;
+   text-align: center;
+   
+   
+}
+
+
+.card-container{
+    max-width: 1360px;
+    /* height: 330px; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    display: flex;
+    gap: 12px; 
+    
+       
+}
+
+  .card .heading-pp{
+    margin-bottom: 44px;
+  }
+ 
+ .card-info{
+    border: 1px solid red;
+    padding: 70px 20px 20px 20px;
+    width:322px ;
+    height: 300px;
+    /* padding: 20px; */
+    /* border: 1px solid red;  */
+   
+}
+
+.card-info img{
+    background-color: #F95555;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+}
+.card-info h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #001931;
+    margin: 16px;
+}
+
+.card-info p{
+    font-size:16px ;
+    font-weight: 400px;
+    color: #627382 ;
+     line-height: 20px;
+}
+   
